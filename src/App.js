@@ -4,13 +4,6 @@ import WindowSize from './componets/WindowSize';
 
 function App() {
 
-  // const [seconds, setSeconds] = useState(0);
-
-  // useInterval(() => {
-  //   setSeconds(seconds + 1);
-  // }, 1000);
-
-
   return (
     <>
       <h1>Open Console</h1>
