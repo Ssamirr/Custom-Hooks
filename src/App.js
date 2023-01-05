@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Interval from './componets/Interval';
+import WindowSize from './componets/WindowSize';
 
 function App() {
+
+  // const [seconds, setSeconds] = useState(0);
+
+  // useInterval(() => {
+  //   setSeconds(seconds + 1);
+  // }, 1000);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div style={{ display: "flex" }}>
+        <div style={{ width: "50%" }}>
+          <Interval />
+        </div>
+        <div style={{ width: "50%" }} >
+          <WindowSize />
+        </div>
+      </div>
+    </>
   );
 }
 
