@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+      <h1>Open Console</h1>
       <div style={{ display: "flex" }}>
         <div style={{ width: "50%" }}>
           <Interval />
