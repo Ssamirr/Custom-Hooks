@@ -12,6 +12,7 @@ function useWindowSize() {
         }
         window.addEventListener('resize', handleResize)
     })
+    
 
     return { width, height }
 }

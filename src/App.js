@@ -1,6 +1,6 @@
 import './App.css';
-import Interval from './componets/Interval';
-import WindowSize from './componets/WindowSize';
+import Interval from './components/Interval';
+import WindowSize from './components/WindowSize';
 
 function App() {
 
